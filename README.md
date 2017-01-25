@@ -1,3 +1,3 @@
-# HTML
+# UI Training
 
-HTML practice exercises and solutions
+Practice exercises and solutions
