@@ -1,0 +1,109 @@
+<!DOCTYPE>
+<html>
+	<head></head>
+	<style>
+		table
+		{
+			width: 100%;
+			table-layout: fixed;
+			border: 1px solid grey;
+		}
+		th
+		{
+			text-align: right;
+			border: 1px solid grey;
+		}
+		td
+		{
+			border: 1px solid grey;
+		}
+	</style>
+	<body>
+		<table>
+			<tr>
+				<th>Last Name</th>
+				<td><input name="Lname" style="width:45%"></input></td>
+			</tr>
+			<tr>
+				<th>First Name</th>
+				<td><input name="Fname" style="width:45%"></input></td>
+			</tr>
+			<tr>
+				<th>Address</th>
+				<td><textarea name="address" rows="4" cols="35"></textarea></td>
+			</tr>
+			<tr>
+				<th>City</th>
+				<td><input name="City" style="width:26%"></input>
+				<strong>State</strong>
+				<input name="State" style="width:13%"></input></td>
+			</tr>
+			<tr>
+				<th>Zip/Postal Code</th>
+				<td><input name="Zip" style="width:15%"></input></td>
+			</tr>
+			<tr>
+				<th>Country</th>
+				<td>
+					<select name="country">
+						<option selected="selected">Select Country</option>
+						<option>Bulgaria</option>
+						<option>India</option>
+						<option>America</option>
+						<option>Italy</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Phone (country code, area code, number)</th>
+				<td>
+					(
+					<input name="phone1" style="width:10%"></input>
+					)
+					<input name="phone2" style="width:10%"></input>
+					-
+					<input name="phone3" style="width:20%"></input>
+				</td>
+			</tr>
+			<tr>
+				<th>E-mail</th>
+				<td><input name="email" placeholder=""></input></td>
+			</tr>
+			<tr>
+				<th>Birth date</th>
+				<td>
+					Month
+					<input name="month" style="width:5%"></input>
+					Day
+					<input name="day" style="width:5%"></input>
+					Year(4 digit)
+					<input name="year" style="width:10%"></input>
+				</td>
+			</tr>
+			<tr>
+				<th>Gender</th>
+				<td>
+					<select name="gender">
+						<option selected="selected">Select Gender</option>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Starting date</th>
+				<td>
+					<input type="radio" name="StartDate" value="Spring 2006">Spring 2006</input>
+					<input type="radio" name="StartDate" value="Summer 2006">Summer 2006</input>
+				</td>
+			</tr>
+			<tr>
+				<th>Comments/Questions</th>
+				<td><textarea name="comments" rows="6" cols="40"></textarea></td>
+			</tr>
+			<tr><td><input type="submit" text-align="center" value="Submit"/>
+		    <input type="reset" text-align="center" value="Clear This Form"/></td></tr>
+		</table>
+		
+	</body>
+</html>
