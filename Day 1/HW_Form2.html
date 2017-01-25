@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<h2>Payment Form</h2>
+		<h3 style="color:red;">All fields are Required</h3>
+		<form id="payments">
+			<label>First Name</label>
+			<input name="fname"></input><br/>
+			<label>Last Name</label>
+			<input name="lname"></input><br/>
+			<label>Street Address</label>
+			<input name="address"></input><br/>
+			<label>City</label>
+			<input name="city"></input><br/>
+			<label>State</label>
+			<input name="state"></input><br/>
+			<label>ZIP/Postal Code</label>
+			<input name="zip"></input><br/>
+			<label>Credit Card Type</label><br/>
+			<input type="radio" name="cardtype" value="MasterCard">MasterCard</input><br/>
+			<input type="radio" name="cardtype" value="VISA">VISA</input><br/>
+			<input type="radio" name="cardtype" value="Discover">Discover</input><br/>
+			<label>Credit Card Number</label>
+			<input name="cardnum"></input><br/>
+			<label>Expiration Date</label>
+			<select name="expMonth">
+				<option selected="selected">--Month--</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>Jul</option>
+				<option>Aug</option>
+				<option>Sep</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</select>
+			<select name="expYear">
+				<option selected="selected">--Year--</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+			</select>
+			<br/>
+			<label>Special Notes</label><br/>
+			<textarea name="comment" id="payments" placeholder="enter notes here..." rows="8" cols="30"></textarea><br/><br/>
+			<input type="submit" value="Submit Payment"/>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<h2>PC Configuration</h2>
+		<form id="config">
+			<label>Processor Speed</label>
+			<select name="procSpeed">
+				<option selected="selected">2.4 GHz</option>
+				<option>2.93 GHz</option>
+				<option>2.26 GHz</option>
+				<option>2 GHz</option>
+				<option>1.86 GHz</option>
+			</select><br/>
+			<label>Memory</label>
+			<select name="memory">
+				<option selected="selected">1 GB</option>
+				<option>2 GB</option>
+				<option>4 GB</option>
+				<option>8 GB</option>
+				<option>16 GB</option>
+			</select><br/>
+			<label>Monitor Size</label>
+			<select name="monSize">
+				<option selected="selected">15"</option>
+				<option>17"</option>
+				<option>21"</option>
+				<option>27"</option>
+				<option>40"</option>
+			</select><br/>
+			<label>Hard Drive</label>
+			<select name="HDrive">
+				<option selected="selected">240 GB</option>
+				<option>250 GB</option>
+				<option>500 GB</option>
+				<option>1 TB</option>
+				<option>2 TB</option>
+			</select><br/>
+			<label>DVD Burner</label>
+			<input type="radio" name="DVDburner" value="Yes">Yes</input>
+			<input type="radio" name="DVDburner" value="No">No</input><br/>
+			<label>Any special requests on your order?</label><br/>
+			<textarea name="comments" rows="10" cols="60"></textarea>
+			<br/>
+			<br/>
+			<input type="submit" value="Send Order"/>
+		</form>
+	</body>
+</html>
